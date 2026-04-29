@@ -1,0 +1,47 @@
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 20px;          
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Tarjeta */
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    width: 180px;
+    padding: 15px;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background: #fff;
+    transition: transform 0.2s ease;
+  }
+  
+  /* Hover bonito */
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Imagen */
+  .card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Textos */
+  .card h2 {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .card h3 {
+    font-size: 14px;
+    color: gray;
+  }
